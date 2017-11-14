@@ -13,6 +13,6 @@ public class ContentPanel extends JPanel {
 
     @Override
     public Dimension getPreferredSize() {
-        return new Dimension(1600, 920);
+        return new Dimension(920, 480);
     }
 }

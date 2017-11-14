@@ -26,7 +26,7 @@ public class ComponentResizer extends MouseAdapter {
     private Rectangle bounds;
     private Point pressed;
     private boolean autoscrolls;
-    
+
     private Dimension minimumSize = MINIMUM_SIZE;
     private Dimension maximumSize = MAXIMUM_SIZE;
 
