@@ -22,8 +22,8 @@ public class Application {
         frame.setVisible(true);
 
         ComponentResizer cr = new ComponentResizer();
-        cr.setMinimumSize(new Dimension(300, 300));
-        cr.setMaximumSize(new Dimension(1600, 920));
+        cr.setMinimumSize(new Dimension(920, 480));
+        cr.setMaximumSize(new Dimension(920, 920));
         cr.registerComponent(frame);
         cr.setSnapSize(new Dimension(10, 10));
     }
